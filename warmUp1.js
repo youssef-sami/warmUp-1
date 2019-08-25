@@ -4,16 +4,33 @@
 // 4-calculate your age in seconds.
 
 // your code is here
-"Nahla" + " " + "Masri";
 
-13%3 === 0;
-function sum (array){
+function combine(firstNmae,lastName){
+	return firstName + " " + lastName;
+}
+
+
+
+function isMultiply (num1, num2){
+	if (num1%num2 === 0){
+		return true;
+	}
+	return false;
+}
+
+
+
+function average (array){
 	var result=0;
-	for(var i =0;i<=array.length,i++){
+	for(var i =0;i<=array.length-1,i++){
 		result += array[i];
 	}
-	return result
+	return result/array.length;
 }
-(13+14+13+15+16+17+19+13+16+15)/10;
-30*365*24*60*60;
+
+
+function ageInSeconds(age){
+	return age* 365*24*60*60;
+}
+
 
