@@ -11,3 +11,25 @@
 	}
 
 // 4-Define a function named "sqArea", and make it display square area if you knew the length of its side. 
+function multiplyBy3(num){
+	return num*3;
+}
+
+
+function multiply(x,y){
+	var x;
+	var y;
+		return x*y;
+	}
+
+
+	function toCelsius(fahrenheit){
+		return (5/9)*(fahrenheit-32);
+	}
+
+
+	function sqArea(length){
+		return length*length;
+	}
+
+
