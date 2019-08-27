@@ -3,7 +3,7 @@
 	  mult(3); // => 6
 	  mult(4); // => 24
 	  function mult(n) {
-	  
+	  // your code is here
 	 }
 
 // 2- Use a while loop to build a single string with the numbers 1 through n
