@@ -1,4 +1,5 @@
 // 1-write a function that returns the product of any number by 3.
+<<<<<<< HEAD
 //<<<<<<< HEAD
 	function myltiplyby(x){
 		return x*3;
@@ -16,9 +17,16 @@ function multiply(x, y) {
   return x * y;
 }
 //>>>>>>> 985775f19257ef448fc4c57d18bb50d0f3bd87be
+=======
+// 2-complete the following function multiply to return the result of multiplying of x and y
+	function multiply(x,y){
+		//your code here
+	}
+>>>>>>> 9f4a4af5ede9b961d5eaa16c50053fc9d56c95dd
 
-// 3-complete the following function that Convert Fahrenheit to Celsius if the module for converting is
+// 3-complete the following function that Convert Fahrenheit to Celsius if the module for converting is 
 // 	(5/9) * (fahrenheit-32);
+<<<<<<< HEAD
 //<<<<<<< HEAD
 	function toCelsius(fahrenheit){
 		return(5/9)* (fahrenheit-32);
@@ -48,3 +56,10 @@ function sqArea(length) {
   return length * length;
 }
 //>>>>>>> 985775f19257ef448fc4c57d18bb50d0f3bd87be
+=======
+	function toCelsius(fahrenheit){
+		//your code is here
+	}
+
+// 4-Define a function named "sqArea", and make it display square area if you knew the length of its side. 
+>>>>>>> 9f4a4af5ede9b961d5eaa16c50053fc9d56c95dd
