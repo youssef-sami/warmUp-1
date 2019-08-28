@@ -12,8 +12,12 @@
 		return (5/9) * (fahrenheit-32);
 	}
 
+<<<<<<< HEAD
 // 4-Define a function named "sqArea", and make it display square area if you knew the length of its side. 
 function asqArea(length){
 	var area = length*length;
 	console.log(area);
 }
+=======
+// 4-Define a function named "sqArea", and make it display square area if you knew the length of its side. 
+>>>>>>> 9f4a4af5ede9b961d5eaa16c50053fc9d56c95dd
