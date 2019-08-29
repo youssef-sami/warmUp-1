@@ -21,13 +21,17 @@ function reverseWithNumber(str) {
 
 
 function sameLength (arr) {
-	var lengths = arr.map(x => x.length)
-	var index=0;
 	var same=[];
-	for (var i = 0; i < lengths.length; i++) {
+	for (var i = 0; i < arr.length; i++) {
+		for (var j = 0; j >= i; j++) {
+			if(arr[i].length === arr[j].length) {
+				same.push(arr[i])
+				same.push(arr[j])
 
 			}
-
+		}
+	}
+	return same;
 }
 
 
