@@ -8,7 +8,6 @@ function each(array , func){
 
 // 1-Write a function that takes a string as an input and returns the reverse of each letter followed by a number starting from zero(solve it using while loop).
 //     reverseStr('hello'); "o1l2l3e4h"
-// eg=['hi','hello','welcome','hy'] == > ["hi","hy"]
 
 // Soluation: 
 
@@ -26,17 +25,25 @@ function reverseStr(string){
 
 
 // 2-write a function that takes array of strings and returns an array of the strings that have the same length
+// eg=['hi','hello','hy','sdfgd','sfe'] ==== > ["hi", "hy", "hello", "sdfgd"]
 // Soluation: 
 
 
-// - declarate a new string 
-// - iterate over an old array and in every round push an empty array to the new array
-// - return the new array
+//we need to declarate a new array to store the data inside it 
+// at first declarate a for loop to itearate over the array
+// then declarate a new for to iteratr over the rest of the array 
+// each loop (round) we need to check if the two elemnts have the same length or not
+// if yes push to the new array 
+// return the new array
 function returnSame(array){
 	var newArray = [];
-	each(array, function(){
-		newArray.push([]);
-	})
+	for (var i = 0; i < array.length; i++) {
+		for (var j = i+1; j < array.length ; j++) {
+			if(array[i].length === array[j].length){
+				newArray.push(array[i],array[j]);
+			}
+		}
+	}
 	return newArray;
 }
 
@@ -64,7 +71,7 @@ function prime(array){
 			newArray.push(value);
 		count =0;
 	})
-	return newArray;
+	return newArray;	
 }
 
 
