@@ -4,3 +4,41 @@
 // eg=['hi','hello','welcome','hy'] == > ["hi","hy"]
 // 3-write a function that take array if numbers and returns array of all the prime numbers in that array.
 // prime([29,19,1,17,3,13,10]) ==> [29,19,17,13]
+
+function reversed(string){
+	var result = "";	
+	var i = 0;
+
+	while (i < string.length){
+
+		result += i + string[string.length - (1+i)] ;
+		i++;
+	}
+	return result;
+}
+
+function sameLength (array){
+	var newArr = [];
+	var itemLength = array[0].length;
+	for(var i = 0; i< array.length; i++){
+		if(array[0].length === array[i]){
+			newArr.push(array[i]);
+		}
+
+	return newArr;
+}
+
+function primearray (array){
+	var newArr = [];
+	var count = 0;
+	for(var i = i ; i < array.length; i++){
+		if (array[i] /i === 0){
+			count ++;
+		}
+		if (count > 2){
+			newArr.push(array[i]);
+		}
+
+	}
+	return newArr;
+}
