@@ -27,7 +27,8 @@ function same(arr){
 			result.push(arr[i],arr[i+k]);
 		}
 		
-	
+	dfdfdfdsfdf 
+	ajsdjlashdjahdjsa
 	
 	}
 
@@ -50,4 +51,7 @@ function isPrime(arr){
 
 	}
 	return result;
+}
+function master(app) {
+	console.log("hello RBK 7");
 }
