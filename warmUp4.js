@@ -8,5 +8,22 @@ function fiveIssmallerSeven(){
 }
 
 function ageFunc(age){
-	
+		
+}
+
+
+
+
+function fun(array){
+	debugger;
+	var i =0;
+	function inner(array , i){
+		if(i > array.length)
+			return array;
+		array[i] = [array[i]];
+		i++;
+		inner(array, i);
+	}
+	inner(array , 0)
+	return array;
 }
