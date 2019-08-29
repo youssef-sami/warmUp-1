@@ -14,7 +14,7 @@ function less(num1 , num2){
 function legalAge(){
 	var age = 17;
 	var type = "male";
-	if (age < 18 && type === "male"){
+	if (age < 18 && type === "male"){sss
 		return "too young";
 	} else {
 		return "Old enough";
