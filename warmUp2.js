@@ -22,4 +22,8 @@ function toCelsius(fahrenheit){
 function sqArea(length){
 	return "The Area of square is " + ( length * length );
 
+<<<<<<< HEAD
 }
+=======
+// 4-Define a function named "sqArea", and make it display square area if you knew the length of its side. 
+>>>>>>> d951fe858b25f55fecef4d100a6f1f56ba723dce
