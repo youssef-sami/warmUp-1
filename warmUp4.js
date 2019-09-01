@@ -27,3 +27,5 @@ function fun(array){
 	inner(array , 0)
 	return array;
 }
+
+
