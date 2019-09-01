@@ -9,5 +9,5 @@ function sum (x,y){
 // 2-calculate the area of a square using varaiables.
 
 function squareArea (x){
-	return z= x+x+x+x;
+	return z = Math.pow(x,2);
 }
