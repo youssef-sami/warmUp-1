@@ -26,7 +26,7 @@ function SameLength(arrOfString){
 		}
 	arrOfString.splice(i,1)
 	}
-return resultArray;
+	return resultArray;
 }
 // eg=['hi','hello','welcome','hy'] == > ["hi","hy"]
 // 3-write a function that take array if numbers and returns array of all the prime numbers in that array.
