@@ -6,6 +6,7 @@
 // 2-calculate the area of a square using varaiables.
 function areaOfSquare (x, y){
 	var area = x * y
+	
 	return area;
 } 
 
