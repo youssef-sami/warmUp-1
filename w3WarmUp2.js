@@ -1,16 +1,16 @@
 // 1- Using recursion Write a JavaScript program to find the greatest common divisor (gcd) of two positive numbers.
 function gcd (num1,num2,i,cd){
-	var i | num1;
+	 i || 1;
 	 num1=Math.abs(num1)
 
 	 num2=Math.abs(num2)
-	var cd | i;
-	// console.log(i +"    " + cd + "  "+ num1 + "  "+ num2)
-	while(i>=1 && i >=1){
+	 cd || i;
+	 console.log(i +"    " + cd + "  "+ num1 + "  "+ num2)
+	while(i<=num1 && i <=num2){
 		console.log(i +"    " )
 	if(num1%i===0 && num2 %i===0  )
 		cd = i;
-		 gcd(num1,num2,i--,cd)
+		 gcd(num1,num2,i++,cd)
 
 	}
 	 return cd;
