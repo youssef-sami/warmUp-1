@@ -15,8 +15,12 @@ function multiplyByThree(num){
 		//your code is here
 	}
 
+<<<<<<< HEAD
 /// 4-Define a function named "sqArea", and make it display square area if you knew the length of its side. 
 function sqArea (length){
 	area = Math.pow(length,2);
 	return Math.pow(area,2);
 }
+=======
+// 4-Define a function named "sqArea", and make it display square area if you knew the length of its side. 
+>>>>>>> 9f4a4af5ede9b961d5eaa16c50053fc9d56c95dd
