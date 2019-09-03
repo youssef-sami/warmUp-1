@@ -43,19 +43,23 @@ function strings(array){
 
 
 	function prime(array){
-		debugger;
+		// debugger;
 
 		var result = [];
 		for(var i = 0; i < array.length; i++){
-			if(array[i]%2 !== 0 && array[i]%3 !== 0 && array[i]%5 !== 0 && array[i]%7 !== 0 && array[i]%11 !== 0){
+			if(array[i] === 2 || array[i] === 3 || array[i] === 5 || array[i] === 7 || array[i] === 11){
 				result.push(array[i]);
 			}
+			if(array[i]%2 !== 0 && array[i]%3 !== 0 && array[i]%5 !== 0 && array[i]%7 !== 0 && array[i]%11 !== 0){
+				result.push(array[i])
 		}
-		return result;
 	}
+	return result;
+
+}
 
 	// this function takes a string of numbers and sees which numbers are prime numbers by taking each number and checking if
 	// the number is dividable by 2 and 3 and 5 and 7 and 11 and if it does return a remainder because prime numbers don't divide by 2 and 3 and 5 and 7 and 11
-	// and so if there is a remainder after division then it's a prime number
+	// and so if there is a remainder after division then it's a prime number and retuens 2, 3, 5, 7 ,11 if they are in the input array
 
 
