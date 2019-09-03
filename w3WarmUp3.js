@@ -8,3 +8,22 @@
 // 3-Change all the numbers in the array to be multiplied by two for even indexes.
 
 
+var strMales = ["moh", "joe"]
+var strFemales = ["razan", "maha"];
+var strInstructors = ["kamal", "mohannad"];
+
+
+
+function halfArray(array){
+	for(var i=0; i<(array.length/2) - 1; i++){
+		return array[(array.length/2) - 1];
+	}
+}
+
+function mult(array){
+	for (var i = 0; i<array.length;i+=2){
+			return array[i] * 2;
+		
+	}
+	return array;
+}
