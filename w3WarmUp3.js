@@ -22,5 +22,5 @@ function multiplayByTow(array){
 	}
 	return array;// return the modified value
 }
-
+//
 
