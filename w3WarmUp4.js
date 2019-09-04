@@ -1,11 +1,11 @@
 // 1-Write a function that takes a string as an input and returns the reverse of each letter 
-function reverse(str){
-	var newStr=""
-	for (var i = str.length-1 ; i >= 0 ; i--) {
-		newStr += str[i];
-	}
-	return newStr;
-}
+// function reverse(str){
+// 	var newStr=""
+// 	for (var i = str.length-1 ; i >= 0 ; i--) {
+// 		newStr += str[i];
+// 	}
+// 	return newStr;
+// }
 
 
 
