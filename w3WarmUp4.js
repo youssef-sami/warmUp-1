@@ -8,21 +8,22 @@
 // Note: I might not be using some of the higher order functions as I haven't reach that yet on the material but 
 // I tried my best.
 function  reverseStr(str){
-	var strArr=str.split('');
-	var reversedStrArr=[];
+
+  var strArr=str.split('');
+  var reversedStrArr=[];
   var i=1;
 
-	while(i !== strArr.length){
-		reversedStrArr[i-1]=strArr[strArr.length-i]+i; 
-		i++;
-	}
+  while(i !== strArr.length){
+    reversedStrArr[i-1]=strArr[strArr.length-i]+i; 
+    i++;
+  }
 
-	reversedStrArr.push(strArr[0]);
-	return reversedStrArr.join('');
+  reversedStrArr.push(strArr[0]);
+  return reversedStrArr.join('');
 }
 
 function getSameLengthStrings(arr) {
-	var sameLengthStringsArray=[];
+  var sameLengthStringsArray=[];
 
   for (var i = 0; i < arr.length; i++) {
     // if there is alrady a string stored in the same length array
@@ -31,17 +32,18 @@ function getSameLengthStrings(arr) {
   	  if (sameLengthStringsArray[0].length === arr[i].length)  {
   	    sameLengthStringsArray.push(arr[i]);
   	  }
-  	}
+   }
     // get the first two strings that have the same length and store
     // the first one so that we can compare to it 
-  	for (var j = i+1; j < arr.length; j++ ) {
+   for (var j = i+1; j < arr.length; j++ ) {
       if(sameLengthStringsArray.length === 0 ){
   		  if(arr[i].length === arr[j].length ){
-          sameLengthStringsArray.push(arr[i]);
+         sameLengthStringsArray.push(arr[i]);
         }
-  		} 
-  	}    
-  }
-	return sameLengthStringsArray;
+      } 
+    } 
+  }   
+
+  return sameLengthStringsArray;
 }
 
