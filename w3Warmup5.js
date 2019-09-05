@@ -14,6 +14,7 @@ function each(arr,func){
 		func(arr[i] , i)
 	}
 }
+//this
 
 function classMate(name, age, city, study,gender){
 	return{
@@ -45,7 +46,7 @@ function nbOfMale(arrayOfClassMate){
 	return count;
 }
 function searchMates(arrayOfClassMate){
-	
+
 
 }
 
