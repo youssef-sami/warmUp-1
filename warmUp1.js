@@ -3,6 +3,7 @@
 // 3-calculate the average age of the follwing ages [13,14,13,15,16,17,19,13,16,15]
 // 4-calculate your age in seconds.
 
+<<<<<<< HEAD
 // your code is here
 
 var fullName = "Mahmoud" + " Diab";
@@ -43,3 +44,6 @@ function calculateAgeInSeconds (age) {
 calculateAgeInSeconds(25); //788940000
 
 ---
+=======
+// your code is here
+>>>>>>> af5a9d946a865c20317284600c6469c63555ef9b
