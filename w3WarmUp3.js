@@ -5,20 +5,8 @@
 
 
 
-var array =[{femaleName} , {maleName}, {instName}]
+var array =["alaa",]
 
-
-
-function nameClass (Objects){
-	newArr=[];
-	for (var key in object){
-		newArr.push (object[key])
-
-	}
-
-return newArr;
-
-}
 
 
 
