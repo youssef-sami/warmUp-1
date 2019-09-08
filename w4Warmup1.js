@@ -2,6 +2,7 @@
 //      a. button1 : Important
 //      b. button2 : normal
 //      c. button3 : rest
+	
 // 2. create a new JS file  and link between the js and HTML
 // 3. create a new css file and change the styles of the buttons and div with it's content
 // 4. add Interaction for the buttons as the following: 
