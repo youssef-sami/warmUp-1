@@ -26,9 +26,6 @@ function same(arr){
 		if(arr[i].length = arr[k].length){
 			result.push(arr[i],arr[i+k]);
 		}
-		
-	dfdfdfdsfdf 
-	ajsdjlashdjahdjsa
 	
 	}
 
@@ -38,20 +35,22 @@ function same(arr){
 
 
 function isPrime(arr){
-	var result =[];
-	for(var i=0; i< arr.length; i++){
-		for(var k =2 ; k<arr[i]/2; i++){
-			if(arr[i] == 1 || arr[i] == 2 || arr[i] == 3)
-			    result.push(arr[i]);
 
-			if(arr[i]%k !==0)
-				result.push(arr[i]);
+	var result =[];
+
+	for(var i=0; i< arr.length; i++){
+
+		for(var k =2 ; k<arr[i]/2; i++){
+
+			if((arr[i] == 1 || arr[i] == 2 || arr[i] == 3) && (arr[i]%k !==0)){
+			    result.push(arr[i]);
+			}
 
 		}
 
 	}
+
 	return result;
 }
-function master(app) {
-	console.log("hello RBK 7");
-}
+
+
