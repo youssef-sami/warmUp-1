@@ -1,0 +1,16 @@
+#important {
+	background-color:red;
+	width: 75px;
+	height: 40px;
+}
+#normal {
+	background-color:lightblue;
+	width: 75px;
+	height: 40px;
+}
+#reset {
+	background-color:white;
+	width: 75px;
+	height: 40px;
+}
+
