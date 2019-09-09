@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>
+	</title>
+	<script src="main.js"></script>
+	<link rel="stylesheet" type="text/css" href="main.css">
+	<script src="https://code.jquery.com/jquery-2.2.4.js"></script>
+	
+</head>
+<body>
+	<div style="position: flex">
+		<input type="text" name="input1" id="input1">
+		<input type="text" name="input2" id="input2">
+		<input type="text" name="input3" id="input3">
+	</div>
+	<button>Click Me!!</button>
+	<h4>here is a headline </h4>
+	<script type="text/javascript">
+		$('button').on('click',function(){
+			var num1 = document.getElementById('input1').value ;
+			var op = document.getElementById("input2").value ;
+			var num2 = document.getElementById('input3').value ;
+			var $result = num1 + op + num2;
+			var $h4 = document.getElementsByTagName('h4');
+			$('h4').append($result);
+
+		});
+	
+	</script>
+</body>
+</html>
