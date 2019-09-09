@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="styles.css">
+	<script src='https://code.jquery.com/jquery-2.2.4.js'></script>
+	<script src="main.js"></script>
+
+</head>
+<body>
+<dir style="display: inline;">
+	<input type="number" name="" id='first'>
+	<input type="number" name="" id='second'>
+	<input type="text" name="" id='operator'>
+	
+</dir>
+<button id='btn'> Im button </button>
+<h1> Im head line</h1>
+
+<script type="text/javascript">
+	$("#btn").click(function(){
+ $("h1").text($('#first').val()+$('#second').val())
+
+})
+
+
+</script>
+
+</body>
+</html>
