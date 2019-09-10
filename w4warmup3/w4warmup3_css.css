@@ -1,0 +1,29 @@
+body{
+ text-align: center;
+ margin-top: 100px;
+}
+
+input{
+  margin: 10px;
+  width: 200px;
+  height: 20px;
+  border-radius:5px;
+}
+
+button{
+  margin: 10px ;
+  padding: 5px;
+  border-radius:5px;
+}
+
+ul{
+  display: inline-block;
+  text-align: left;
+}
+.red {
+  color: red;
+}
+
+.green {
+  color: green;
+}
