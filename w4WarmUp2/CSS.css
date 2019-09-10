@@ -1,0 +1,28 @@
+body {
+	background-color: #E9967A;
+}
+
+#b1 {
+  background-color: #778899;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  font-size: 16px;
+  margin: 4px 2px;
+  
+}
+
+#t1 {
+	width: 100px;
+	height: 40px;
+}
+
+#operation {
+	width: 40px;
+	height: 40px;
+}
+
+#t2 {
+	width: 100px;
+	height: 40px;
+}

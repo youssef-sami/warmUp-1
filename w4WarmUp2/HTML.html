@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Week4 WarmUp 2</title>
+	<link rel="stylesheet" type="text/css" href="CSS.css">
+	<script type="text/javascript" src="https://code.jquery.com/jquery-2.2.4.js"></script>
+	<script type="text/javascript" src="myScript.js"></script>
+</head>
+
+<body>
+	
+	<input type="text" id="t1">
+	<input type="text" id="operation">
+	<input type="text" id="t2">
+
+	<div>
+		<button id="b1">MyButton</button>	
+	</div>
+
+	<h2 id="result">This is h2</h2>
+
+	
+
+	<script type="text/javascript">
+		
+	$('#b1').click(function(){
+
+	var op1 = parseFloat($('#t1').val());
+
+	var oper = $('#operation').val();
+
+	var op2 = parseFloat($("#t2").val());
+    
+    if ( (typeof(op1) !== NaN) || (typeof(op2) !== NaN) ) {
+
+    	$('#result').css('color','red');
+    }
+
+	if(oper === "+"){
+		var res = op1 + op2 ;
+		$('#result').html(res);
+	}else if(oper === "-" ){
+		var res = op1 - op2;
+		$('#result').html(res);
+	}else if(oper === "*"){
+		var res = op1 * op2;
+		$('#result').html(res);	
+	}else if(oper === "/") {
+		var res = op1 / op2;
+		$('#result').html(res);
+	}else {
+		alert("Please Enter a Valid Operation")
+	}
+	
+	if(res < 100){
+		$('#result').css('color','green');
+
+	}else if(res >= 100){
+		$('#result').css('color','blue');
+
+	}
+
+
+
+	});
+
+	</script>
+
+</body>
+</html>
