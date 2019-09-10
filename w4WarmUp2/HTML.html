@@ -32,7 +32,7 @@
 
 	var op2 = parseFloat($("#t2").val());
     
-    if ( (typeof(op1) !== "number") || (typeof(op2) !== "number") ) {
+    if ( (typeof(op1) !== NaN) || (typeof(op2) !== NaN) ) {
 
     	$('#result').css('color','red');
     }
