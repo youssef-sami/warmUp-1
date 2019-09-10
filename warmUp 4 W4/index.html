@@ -5,7 +5,8 @@
 	 <script src='https://code.jquery.com/jquery-2.2.4.js'></script>
    <script src=main.js></script>
 
-  <link rel="stylesheet" type="text/css" href="style.css" />
+  <link rel="stylesheet" type="text/css" href="styles.css" />
+ 
 </head>
 <body>
 	<input type="text" name="" id='inpt'>
@@ -16,8 +17,8 @@
 	</ul>
 	<script type="text/javascript">
 		$("#btn").click(function(){
- $("ul").append('<li>' + $('#inpt').val())
-
+ $("ul").append('<li>' + $('#inpt').val());
+ $('li').toggleClass("color1")
 })
 	</script>
 
