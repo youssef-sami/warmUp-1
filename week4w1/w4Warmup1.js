@@ -17,10 +17,10 @@
 
 
 
-var button = document.documentElementTagName(button);
+// var button = document.documentElementTagName(button);
 
-function click(){
-	for (var i=0; i< button.length ; i++){
+// function click(){
+// 	for (var i=0; i< button.length ; i++){
 		
-	}
-}
+// 	}
+// }
