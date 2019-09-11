@@ -3,3 +3,6 @@
 	var y = 10;
 // 2-calculate the area of a square using varaiables.
 
+/////
+///
+////
