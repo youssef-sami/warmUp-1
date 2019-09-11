@@ -1,0 +1,21 @@
+#Lul
+{
+	font-size: 2em;
+	color:#47664a;
+}
+#Rul{
+	font-size: 2em;
+	color: #61638f;
+}
+#elDivs{
+	position: relative;
+	text-align: center;
+}
+.left{
+	 float:left;
+	  display: block;
+}
+.right{
+	float:right;
+	 display: block;
+}
