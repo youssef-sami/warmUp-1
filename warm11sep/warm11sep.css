@@ -1,0 +1,13 @@
+.rightList {
+	background-color: grey;
+	font-size: 22px;
+	font-family: arial;
+	list-style-position: right;
+}
+
+.leftList {
+	background-color:blue;
+	font-size: 24px;
+	font-family: arial;
+	list-style-position: left;
+}
