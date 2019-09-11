@@ -1,0 +1,21 @@
+#leftList {
+	grid-area: left;
+}
+
+#rightList {
+	grid-area: right; 
+}
+
+#container{
+	display: grid;
+	grid-template-areas: "left left left right"
+}
+
+#buttonCont {
+	text-align: center;
+}
+
+#left, #right, #create {
+	width: 100px;
+	border-radius: 4px;
+}
