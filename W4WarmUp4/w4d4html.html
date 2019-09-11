@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Week4 WarmUp4</title>
+	<link rel="stylesheet" type="text/css" href="w4d4CSS.css">
+	<script type="text/javascript" src="w4d4Script.js"></script>
+	<script type="text/javascript" src="https://code.jquery.com/jquery-2.2.4.js"></script>
+</head>
+<body>
+
+	<button id="LB">Left</button>
+	<button id="RB">Right</button>
+	<br>
+	<button id="create">Create</button>
+
+	<div>
+		
+
+		<ul id="UlLeft">
+			
+
+		</ul>
+
+		
+
+			
+		</ul id="UlRight">
+			
+			
+		</ul>
+
+
+	</div>
+
+	
+
+
+	<script type="text/javascript">
+		var lUl = $('#UlLeft');
+		var rUl = $('#UlRight');
+		var lBtn = $('#LB');
+		var rBtn = $('#RB');
+		var create = $('#create')
+
+		var flag1 = false;
+		var flag2 = false;
+
+		lBtn.click(function(){
+			flag1 = true;
+
+		});
+
+
+		create.click(function(){
+
+			if( flag1 === true){
+			
+			lUl.append('<li>' + "hello").val()
+			//create.css('color', 'blue');
+
+	    	}
+
+
+		   if(flag2 === true){
+
+		   	//create.css('color', 'red');
+
+			rUl.append('<li>' + "Hello").val()
+		   }
+
+
+		});
+
+		
+
+	</script>
+
+</body>
+</html>
