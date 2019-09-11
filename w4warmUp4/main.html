@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="main.css">
+	<script
+	src="https://code.jquery.com/jquery-2.2.4.js"
+	integrity="sha256-iT6Q9iMJYuQiMWNd9lDyBUStIq/8PuOW33aOqmvFpqI="
+	crossorigin="anonymous"></script>
+</head>
+<body>
+
+	<input type="text" name="myinput">
+	<div>
+		<button id="left"> Left </button>
+		<button id="reight"> Right </button>
+	</div>
+	<div>
+		<button id="create"> Create </button>
+	</div>
+	<div style="display: inline-block; position: flex">
+		<ul id="leftul">
+			<li>
+			</li>
+		</ul>
+		<ul id="rightul">
+			<li>
+			</li>
+		</ul>
+	</div>
+<script >
+	
+		if ($("button#left").on('click')){ 
+			$("button#create").on('click',function(){
+			var $lim = $('<li></li>');
+			$('ul#leftul').append($lim.append($('input').val()));
+		 })
+			}
+			else if($("button#right").on('click')){
+				$("button#create").on('click',function(){
+			var $lim = $('<li></li>');
+			$('ul#rightul').append($lim.append($('input').val()));
+		 })
+			}
+
+</script>
+</body>
+</html>
