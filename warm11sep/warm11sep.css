@@ -1,11 +1,12 @@
-.rightList {
+
+.right{
 	background-color: grey;
 	font-size: 22px;
 	font-family: arial;
 	list-style-position: right;
 }
 
-.leftList {
+.left {
 	background-color:blue;
 	font-size: 24px;
 	font-family: arial;
