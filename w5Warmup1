@@ -2,9 +2,10 @@ var operateOnNumbers = function (firstNumber, secondNumber, func) {
 	return func(firstNumber, secondNumber)
 }
 
-//complete the following functions
+//complete the following function
 
 var addition = function(x, y) {
+
 
 }
 
@@ -21,3 +22,17 @@ var division =
 //operateOnNumbers(3, 3, multiplication) -> 9
 //operateOnNumbers(4, 2, division) -> 2
 //operateOnNumbers(3, 0, division) -> “Can’t divide by Zero”
+
+
+
+
+
+
+
+
+
+
+
+
+
+
