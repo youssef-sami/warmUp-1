@@ -1,3 +1,4 @@
+
 var operateOnNumbers = function (firstNumber, secondNumber, func) {
 	return func(firstNumber, secondNumber)
 }
@@ -5,15 +6,21 @@ var operateOnNumbers = function (firstNumber, secondNumber, func) {
 //complete the following functions
 
 var addition = function(x, y) {
-
+return x + y ;
 
 }
 
-var subtraction =
+var subtraction = function(x, y) {
+	return x - y ;
+}
 
-var multiplication =
+var multiplication = function(x,y) {
+	return x * y ;
+}
 
-var division =
+var division = function( x, y) {
+	return x / y;
+}
 
 
 //If you call the following functions they should return these values
