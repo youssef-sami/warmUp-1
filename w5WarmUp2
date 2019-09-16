@@ -6,14 +6,50 @@
 //Create a function that takes the array and a string either “M” or “F” and returns the male students if “M” was passed and female students if “F” was passed
 
 function Student() {
-	var student = {}
+	var student1 = {Name:'Fatoom',DoB: '17/05/1988', Gender:'F'; Age: 31};
+	var student2 = {Name:'Amal', DoB: '01/01/1993', Gender:'F', Age:26};
+	var student3 = {Name:'Ola', DoB: '02/02/2000', Gender:'F', Age:20};
+	var student4 = {Name:'Dalia',DoB: '01/10/2001', Gender:'F',Age: 18};
+	var student5 = {Name:'Ali', DoB:'01/03/1998', Gender:'M', Age:22}
+	var students = [student1 , student2, student3, student4, student5];
+	var student = {};
 	student.Name = Name;
 	student.DoB = DoB;
 	student.Gender = Gender;
 	student.Age = Age;
-	var students = [{'Fatoom', '17/05/1988', 'Female', 31}, {'Amal', '01/01/1993', 'Female', 26}, {'Ola', '02/02/2000', 'Female', 20}, 'Dalia', '01/10/2001', 'Female', 18}, {'Ali', '01/03/1998', 'male', 22}];
+	student.display : displayStudent(student);
+	student.srot : sortStudents(students); 
+	student.dueGender: returnStudentsDueGender(students, gender)
+	return student;
 }
+
+//Create a function that takes a student as parameter and print out the details of the student
 function displayStudent(student) {
 	return "Student Name " + student.Name + '\n' + "DoB " + student.DoB + '\n' + "Gender " + student.Gender + '\n' + "Age " + student.Age;	
+}
+
+//Create a function that takes the array of students and sort them out based on age (younger-to-older)
+
+function sortStudents(students){
+	var maxAge = students[0].Age;
+	var temp = 0;
+	for(var i = 1; i < students.length; i++){
+		if(students[i] > age){
+			temp = maxAge;
+			maxAge = students[i].age;
+			students[i] = maxAge;
+			students[i-1] = temp;
+		}
+	}
+	return students
+}
+
+//Create a function that takes the array and a string either “M” or “F” and returns the male students if “M” was passed and female students if “F” was passed
+function returnStudentsDueGender(students, gender){
+	var newStudents = [];
+	if(student.gender === gender){
+		newStudents.push(student);
+	})
+	return newStudents;	
 }
 
