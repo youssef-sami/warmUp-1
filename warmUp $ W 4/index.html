@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+
+	  <link rel="stylesheet" type="text/css" href="styles.css" />
+	  <script src='https://code.jquery.com/jquery-2.2.4.js'></script>	
+	  <script src=main.js></script>
+
+</head>
+<body>
+  <div style="display: inline;">
+      <button id="left">Left</button>
+      <button id="right">Right</button>
+  </div>
+
+  <button style="display: block;"> Create </button>
+
+
+   <dir style="display: inline;">
+     
+
+      <ul id='llist' style="display: inline-block;"> List 1:
+    <li>First</li>
+    <li>Second</li>
+    <li>Third</li>
+  </ul>
+
+   <ul id="rlist" style="display: inline-block;"> List 2:
+    <li>First</li>
+    <li>Second</li>
+    <li>Third</li>
+  </ul>
+   </dir>
+ 
+
+
+
+<script type="text/javascript">
+  $("#left").click(function(){
+ $("#llist").append('<li>' )
+
+})
+  $("#right").click(function(){
+ $("#rlist").append('<li>' )
+
+})
+</script>
+
+  
+</body>
+</html>
