@@ -14,7 +14,7 @@ var firstiput =$("#inp1");
 var secoundinput =$("#inp2");
 var third =$("#inp3");
 function caluclate(){
-debugger
+
 	if(secoundinput.val() === "+"  && typeof(parseInt(firstiput.val()))=="number" && typeof(parseInt(third.val()))=="number"){
 		return  parseInt(firstiput.val()) + parseInt(third.val() );
 	}
@@ -38,7 +38,7 @@ console.log(parseInt(third.val()))
 }
 
 $("#btn1").click(function(){
-	console.log(caluclate())
+	
 	if(caluclate()<100){
 		$("#calc").css({"color":"green"})
 	}
@@ -52,7 +52,6 @@ $("#btn1").click(function(){
 	
 	}
 	
-
 })
 
 
