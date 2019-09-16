@@ -1,3 +1,4 @@
+
 //Create a function (class) called Student that return an object that contains the following properties:
 //Name, Date of Birth, Gender, Age
 //Create an array and fill it with 5 students
@@ -55,14 +56,16 @@ function studentInfo(student){
 
 }
 
+studentInfo(studentD);
+
 function sortStudentsAge(studentsArr) {
   var sorted = [studentsArr[0]];
-
+     
   for(var i = 1; i < studentsArr.length; i++) {
     if (studentsArr[i].age <= studentsArr[i-1].age){
       sorted.unshift(studentsArr[i]);
     } else {
-      sorted.pull(studentsArr[i]);
+      sorted.push(studentsArr[i]);
     }
   }
   
@@ -75,9 +78,11 @@ function getStudentsBasedOnGender(studentsArr,gender) {
   var fullGender = (gender === 'M')?'male':'female';
   return studentsArr.filter(function(student){
     return student.gender === fullGender;
+  });
 }
 
-console.log(getStudentsBasedOnGender(students));
+console.log(getStudentsBasedOnGender(students,'F'));
+
 
 
 
