@@ -1,0 +1,39 @@
+//Create a function (class) called Student that return an object that contains the following properties:
+//Name, Date of Birth, Gender, Age
+//Create an array and fill it with 5 students
+//Create a function that takes a student as parameter and print out the details of the student
+//Create a function that takes the array of students and sort them out based on age (younger-to-older)
+//Create a function that takes the array and a string either “M” or “F” and returns the male students if “M” was passed and female students if “F” was passed
+
+function student(name , dBirth , gender , age) {
+	return {
+	name : name ,
+	dateOfBirth : dBirth ,
+	gender : gender ,
+	age : age 
+	}
+}
+var student1 = student("maha","17/7/1992","f",27);
+// we continu the same for the other 4 sudents
+var studentArray = [
+	{name : "maha" ,dateOfBirth : "17/7/1992" ,gender : "f" ,age : 27 },
+	{name : "dalya" ,dateOfBirth : "15/6/2000" ,gender : "femail" ,age : 19},
+	{name : "zaina" ,dateOfBirth : "2/9/1986" ,gender : "famail" ,age : "32" },
+	{name : "nouran",dateOfBirth : "15/10/1997" ,gender : "femail" ,age : 24 },
+	{name : "soha" ,dateOfBirth : "15/6/1992" ,gender : "femail" ,age : 15 },
+
+];
+function printStd(student){
+	return student.name+" " +student.dateOfBirth+ " " +student.gender+ " " +student.age;
+}
+function sortArray(array){
+var nArray = [] ;
+	for(var i =0 ; i < array.length ; i++){
+		for(var key in array[i]){
+			if(array[i].age <min){
+			nArray
+			}
+		}
+	}
+	
+}
