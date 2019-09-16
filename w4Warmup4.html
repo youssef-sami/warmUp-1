@@ -1,0 +1,34 @@
+<html>
+	<head>
+		<script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+		<script type="text/javascript" src="w4Warmup4new.js"></script>
+		<link rel="stylesheet" type="text/css" href="w4Warmup4.css">
+	</head>
+	<body>
+		<button id = "leftButton">Left</button>
+		<button id = "rightButton">Right</button>
+		<br><br>
+		<button>Create</button>
+		<div>
+			<ul id="rightUl"></ul>
+			<ul id="leftUl"></ul>
+		</div>
+
+
+		<script type="text/javascript">
+
+			$(document).ready(function(){
+				// alert("Hello")
+				var num= 0 ; 
+				$("#leftButton").click(function(){
+					$('<li>new to left</li>').appendTo("#leftUl")
+				})
+				$("#rightButton").click(function(){
+					$('<li>new to right</li>').appendTo("#rightUl")
+				})
+
+			})
+			
+		</script>
+	</body>
+</html>
