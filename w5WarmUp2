@@ -4,3 +4,27 @@
 //Create a function that takes a student as parameter and print out the details of the student
 //Create a function that takes the array of students and sort them out based on age (younger-to-older)
 //Create a function that takes the array and a string either “M” or “F” and returns the male students if “M” was passed and female students if “F” was passed
+ function Student(){
+ var newobject={name: , date of birth: , gender: , ageL: ;
+ var student =[ola, maha, ahmed, ali, moh];
+  return newobject;
+function stu(student){
+ return newobject[student];}
+
+function arr(){
+	return age[student];
+}
+function gend(){
+	for(var i=0, i<student.length,i++)
+	if (i=== male)
+	return "M";
+	else
+	retur "F";
+	
+}
+
+
+	
+ 
+  
+}
