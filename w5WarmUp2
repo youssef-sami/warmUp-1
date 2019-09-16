@@ -13,6 +13,7 @@ function Student() {
 	student.Age = Age;
 	var students = [{'Fatoom', '17/05/1988', 'Female', 31}, {'Amal', '01/01/1993', 'Female', 26}, {'Ola', '02/02/2000', 'Female', 20}, 'Dalia', '01/10/2001', 'Female', 18}, {'Ali', '01/03/1998', 'male', 22}];
 }
-function fillStudent(students) {
-	
+function displayStudent(student) {
+	return "Student Name " + student.Name + '\n' + "DoB " + student.DoB + '\n' + "Gender " + student.Gender + '\n' + "Age " + student.Age;	
 }
+
