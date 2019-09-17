@@ -9,11 +9,11 @@
 function makeStudent (name,dateOfBirth,gender,age){
 
 return {
-	name=name,
-	dateOfBirth=dateOfBirth,
-	gender=gender,
-	age=age,
-	studentArray=studentArray;
+	name:name,
+	dateOfBirth:dateOfBirth,
+	gender:gender,
+	age:age,
+	studentArray:studentArray
 };
 }
 var studentArray = function (makeStudent){
@@ -43,8 +43,9 @@ var studentsAgeSort = function (){
 
 
 var studentsAgeSort = function (array,str){
+	var newArr=[];
 	for ( var i = 0; i < array.length ; i++){
-if (str="M"){
+if (str === "M"){
 	return "male";
 }else {
 	return "female";
