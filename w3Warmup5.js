@@ -51,6 +51,6 @@ function searchMates(query,arr) {
     return query;
   }
 }
-
+console.log('hjell');
 
 
