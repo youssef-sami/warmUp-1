@@ -18,11 +18,11 @@
 		if(parseInt($('#inpt').val())<100){
 		$("ul").append('<li>' + $('#inpt').val());	
 	}else{
-		$("ul").append('<li>' + $('#inpt').val()).css('color','red');
+		$("ul").append('<li>' + $('#inpt').val().css('color','red'));
 	}
 })
 	$('#delete').click(function(){
-		$('ul').hide('li')
+		$('li').remove();
 	})
 </script>
 
