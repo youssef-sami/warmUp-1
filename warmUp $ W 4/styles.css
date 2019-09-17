@@ -1,0 +1,17 @@
+#llist{
+	 list-style: square inside;
+	 font-family: Lucida Bright;
+	 font-size: 24px;
+	 color: #426ABE;
+
+
+}
+#rlist{
+	   list-style: circle;
+	   font-family: Lucida Bright;
+	   font-size: 24px;
+	   color: #142242;
+	   margin-left: 50px
+
+	
+}
