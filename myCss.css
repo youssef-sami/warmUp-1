@@ -1,0 +1,13 @@
+
+.center{
+	margin: center ;
+}
+p {
+	color: red ;
+	font: bold;
+}
+button {
+	color: blue ;
+	background: gray ;
+	font: bold;
+}
