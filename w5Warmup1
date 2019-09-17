@@ -4,6 +4,26 @@ var operateOnNumbers = function (firstNumber, secondNumber, func) {
 
 //complete the following functions
 
+<<<<<<< HEAD
+var addition = function(firstNumber, secondNumber) {
+return firstNumber + secondNumber;
+}
+
+var subtraction = function(firstNumber, secondNumber) {
+	return firstNumber - secondNumber;
+}
+
+var multiplication  = function(firstNumber, secondNumber) {
+	return firstNumber * secondNumber;
+}
+
+var division  = function(firstNumber, secondNumber) {
+	if(second number === 0){
+		return "Can’t divide by Zero";
+	} 
+  return firstNumber / secondNumber;
+} 
+=======
 var addition = function(x, y) {
 
 }
@@ -13,6 +33,7 @@ var subtraction =
 var multiplication =
 
 var division =
+>>>>>>> 6f8260b211d76c42cfd9afe1d7b89a50747ca1e6
 
 
 //If you call the following functions they should return these values
@@ -21,3 +42,7 @@ var division =
 //operateOnNumbers(3, 3, multiplication) -> 9
 //operateOnNumbers(4, 2, division) -> 2
 //operateOnNumbers(3, 0, division) -> “Can’t divide by Zero”
+<<<<<<< HEAD
+
+=======
+>>>>>>> 6f8260b211d76c42cfd9afe1d7b89a50747ca1e6

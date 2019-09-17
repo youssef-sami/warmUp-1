@@ -1,0 +1,55 @@
+//Create a function (class) called Student that return an object that contains the following properties:
+//Name, Date of Birth, Gender, Age
+//Create an array and fill it with 5 students
+//Create a function that takes a student as parameter and print out the details of the student
+//Create a function that takes the array of students and sort them out based on age (younger-to-older)
+//Create a function that takes the array and a string either “M” or “F” and returns the male students if “M” was passed and female students if “F” was passed
+<<<<<<< HEAD
+
+//Create a function (class) called Student that return an object that contains the following properties:
+
+
+
+//Name, Date of Birth, Gender, Age
+//Create an array and fill it with 5 students
+//Create a function that takes a student as parameter and print out the details of the student
+//Create a function that takes the array of students and sort them out based on age (younger-to-older)
+//Create a function that takes the array and a string either “M” or “F” and returns the male students if “M” was passed and female students if “F” was passed
+
+ 
+ function filter(coll, predicate) {
+ 	var acc = []; 
+ 	if (!Array.isArray(coll)) {
+ 		acc = {};
+ 	} 
+ 	each(coll, function(element,key){
+ 		if (predicate(element,key)) {
+ 			acc[key] = element;
+ 		}
+ 	});
+ 	return acc;
+ }
+
+
+ function student(object,arraykeys) {
+
+ 	studentInfo: return filter (object, function(value,key){
+ 		return each (arraykeys, function(element,index){
+ 			});
+
+
+	
+	studentsArray: return filter (object, function(value,key){
+ 		each (arraykeys, function(element,index){
+ 		return  
+
+
+	Passingexam: return filter (object, function(value,key){
+ 		each (arraykeys, function(element,index){
+ 		return (Gender[M] === "passed" | Gender[F] === "passed")
+
+
+
+
+=======
+>>>>>>> 6f8260b211d76c42cfd9afe1d7b89a50747ca1e6
