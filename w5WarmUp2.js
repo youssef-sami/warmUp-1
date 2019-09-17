@@ -17,11 +17,11 @@ function student (name,dateOfBirth,gender,age) {
 
 }
 
-var student1= function student("Alaa","October","femal",30);
-var student2=function student ("Doaa","septmper","femal",24);
-var student3=function student ("John","December","male",20);
-var student4=function student ("Sameer","march","male",32);
-var student5=function student ("Amera","April","fmale",23);
+var student1=  student("Alaa","October","femal",30);
+var student2= student("Doaa","septmper","femal",24);
+var student3= student("John","December","male",20);
+var student4= student("Sameer","march","male",32);
+var student5= student("Amera","April","fmale",23);
 
 
 
